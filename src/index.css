@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-greyish);
+}
+
+
+@import "tailwindcss";
+
+@theme {
+  --color-greyish: #EDEDED;
+  --color-white: #FFFFFF;
+  --color-pinkish: #e8b4b8
+}
+
+@tailwind utilities;

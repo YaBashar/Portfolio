@@ -15,7 +15,22 @@ body {
 @theme {
   --color-greyish: #EDEDED;
   --color-white: #FFFFFF;
-  --color-pinkish: #e8b4b8
+  --color-greenish: #2D5F5D
 }
+
+@layer components {
+  .btn {
+    @apply mt-5 w-[100px] h-[35px] cursor-pointer border-2 rounded-xl;
+  }
+
+  .btn-hover {
+    @apply hover:shadow-2xl hover:bg-greenish hover:text-white duration-300 ease-out
+  }
+
+}
+
+
+
+
 
 @tailwind utilities;

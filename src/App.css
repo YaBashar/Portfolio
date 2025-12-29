@@ -15,7 +15,8 @@ body {
 @theme {
   --color-greyish: #EDEDED;
   --color-white: #FFFFFF;
-  --color-greenish: #2D5F5D
+  --color-greenish: #2D5F5D;
+  --color-pinkish: #FFF0F3;
 }
 
 @layer components {

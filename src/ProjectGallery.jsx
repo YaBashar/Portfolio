@@ -11,10 +11,11 @@ const ProjectGallery = () => {
             <h1 className='text-3xl font-bold'>Projects</h1>
         </div>
 
-        <div className='flex flex-wrap justify-center gap-10 mb-10'>
+        <div className='w-[90vw] flex flex-wrap justify-start content-start items-start gap-10 mb-10'>
             <ProjectCard 
                 title="Retire Well"
                 description="An application aimed at reducing social isolation for individuals aged 50+ transitioning into retirement"
+                image="src/assets/RetireWell.png"
             />
             <ProjectCard 
                 title="Free2Meet"

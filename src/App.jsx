@@ -6,10 +6,8 @@ function App() {
 
   return (
     <>
-        <div className='flex flex-col grow justify-center items-center h-full w-full'>    
-          <About />
-          <ProjectGallery />
-        </div>
+      <About />
+      <ProjectGallery />  
     </>
   )
 }

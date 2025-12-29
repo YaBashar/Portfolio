@@ -4,7 +4,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 
 const ProjectCard = ({ title, description }) => {
   return (
-    <div className='bg-white shadow-lg ml-4 mb-10 w-[325px] h-90 rounded-3xl cursor-pointer hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.0] active:scale-[0.98] duration-300 ease-out'>
+    <div className='bg-white shadow-lg w-[90vw] h-115 p-4 rounded-3xl cursor-pointer hover:shadow-2xl hover:-translate-y-3 hover:scale-[1.0] active:scale-[0.98] duration-300 ease-in-out'>
         <h1 className='ml-4 mt-4 w-fit text-2xl '>{title} 
 
           <span className='cursor-pointer'>

@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    background-color: var(--color-greyish);
+    background: linear-gradient(to bottom, #dce5ef, #eff5f9);
 }
 
 

@@ -1,5 +1,5 @@
 import ProjectCard from './ProjectCard.jsx'
-
+import RetireWellImage from './assets/RetireWell.png'
 
 const ProjectGallery = () => {
   return (
@@ -15,7 +15,7 @@ const ProjectGallery = () => {
             <ProjectCard 
                 title="Retire Well"
                 description="An application aimed at reducing social isolation for individuals aged 50+ transitioning into retirement"
-                image="src/assets/RetireWell.png"
+                image={RetireWellImage}
             />
             <ProjectCard 
                 title="Free2Meet"

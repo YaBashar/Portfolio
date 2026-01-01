@@ -1,10 +1,11 @@
 import ProjectCard from './ProjectCard.jsx'
 import RetireWellImage from './assets/RetireWell.png'
+import Free2MeetImage from './assets/Free2Meet.png'
+import LectrifyImage from './assets/Lectrify.svg'
 
 const ProjectGallery = () => {
   return (
    <>
-    
     <div className='flex flex-col items-center'>
 
         <div className='w-[90vw] mt-9 mb-2 top-10'>
@@ -16,14 +17,22 @@ const ProjectGallery = () => {
                 title="Retire Well"
                 description="An application aimed at reducing social isolation for individuals aged 50+ transitioning into retirement"
                 image={RetireWellImage}
+                backgroundColor="#FFF0F3"
+                onClickLink={'/Portfolio/RetireWell'}
             />
             <ProjectCard 
                 title="Free2Meet"
                 description="Smart event scheduling platform that helps with planning and organising personal meetups"
+                image={Free2MeetImage}
+                backgroundColor="#F3F2FF"
+                onClickLink={'/Portfolio/Free2Meet'}
             />
             <ProjectCard 
                 title="Lectrify"
                 description="Application that uses voice to text input to improve lecture engagement through real time interactive questions answered anonymously"
+                externalLink="https://devpost.com/software/lectrify-app"
+                image={LectrifyImage}
+                backgroundColor="#EAEAEA"
             />
         </div>
 
